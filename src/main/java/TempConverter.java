@@ -8,7 +8,7 @@ public class TempConverter {
         Scanner sc = new Scanner(System.in);
 
         while(run){
-            System.out.println("Choose conversion direction:");
+            System.out.println("Choose Conversion Direction:");
             System.out.println("1. Convert Fahrenheit to Celsius");
             System.out.println("2. Convert Celsius to Fahrenheit");
             System.out.println("3. exit");
@@ -38,13 +38,13 @@ public class TempConverter {
                     run = false;
                     break;
                 default:
-                    System.out.println("Invalid choice, please try again");
+                    System.out.println("Invalid choice, please try again.");
                     break;
             }
 
 
         }
-        System.out.println("Goodbye");
+        System.out.println("Goodbye!");
 
     }
         // TODO: Implement temperature converter

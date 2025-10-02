@@ -8,17 +8,17 @@ public class DistanceConverter {
         Scanner sc = new Scanner(System.in);
 
         while(run){
-            System.out.println("Choose conversion direction:");
-            System.out.println("1. Convert Miles to Kilometers");
-            System.out.println("2. Convert Kilometers to Miles");
-            System.out.println("3. exit");
+            System.out.println("Choose Conversion Direction:");
+            System.out.println("1. Convert Miles to Kilometers:");
+            System.out.println("2. Convert Kilometers to Miles:");
+            System.out.println("3. Exit:");
             System.out.println("Enter a choice: ");
             choice = sc.nextInt();
             switch(choice) {
                 case 1:
-                    System.out.println("Enter distance in Miles");
+                    System.out.println("Enter distance in Miles:");
                     distance = sc.nextDouble();
-                    System.out.println("Conversion Results");
+                    System.out.println("Conversion Results:");
                     System.out.println("Miles: " + distance);
                     distance = distance * 1.60935;
                     System.out.println("Kilometers: " + distance);
@@ -26,9 +26,9 @@ public class DistanceConverter {
                     break;
 
                 case 2:
-                    System.out.println("Enter distance in Kilometers");
+                    System.out.println("Enter distance in Kilometers:");
                     distance = sc.nextDouble();
-                    System.out.println("Conversion Results");
+                    System.out.println("Conversion Results:");
                     System.out.println("Kilometers: " + distance);
                     distance = distance / 1.60935;
                     System.out.println("Miles: " + distance);
@@ -44,7 +44,7 @@ public class DistanceConverter {
 
 
         }
-        System.out.println("Goodbye");
+        System.out.println("Goodbye!");
 
         }
         // TODO: Implement distance converter

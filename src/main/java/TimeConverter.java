@@ -9,26 +9,26 @@ public class TimeConverter {
         Scanner sc = new Scanner(System.in);
 
         while(run){
-            System.out.println("Convert time to total seconds");
-            System.out.println("Enter Hours");
+            System.out.println("Convert Time to Total Seconds:");
+            System.out.println("Enter Hour:");
             hour = sc.nextInt();
-            System.out.println("Enter Minutes");
+            System.out.println("Enter Minute:");
             minute = sc.nextInt();
-            System.out.println("Enter Seconds");
+            System.out.println("Enter Second:");
             second = sc.nextInt();
             System.out.println();
 
 
 
-            System.out.println("Time conversion");
-            System.out.println("input: "+ hour +" hours, " +minute + " minute, " + second + " second");
+            System.out.println("Time Conversion:");
+            System.out.println("Input: "+ hour +" Hours, " +minute + " Minute, " + second + " Second");
             num1 = minute * 60;
             num3 = hour * 60 * 60;
             num2 = num3 + num1 + second;
-            System.out.println(hour + " hour * 3600 = " + num3);
-            System.out.println(minute + " minute * 36 = " + num1);
-            System.out.println(second +" second * 1 = " + second);
-            System.out.println("Total = " + second + " + " + num1 +" + "+ num3 + " = " + num2);
+            System.out.println(hour + " Hour * 3600 = " + num3);
+            System.out.println(minute + " Minute * 36 = " + num1);
+            System.out.println(second +" Second * 1 = " + second);
+            System.out.println("Total = " + num2 + " seconds");
 
 
             System.out.println("Do you want to convert another time? (y/n)");
@@ -39,7 +39,7 @@ public class TimeConverter {
             }
 
             }
-        System.out.println("Goodbye");
+        System.out.println("Goodbye!");
             }
 
 
