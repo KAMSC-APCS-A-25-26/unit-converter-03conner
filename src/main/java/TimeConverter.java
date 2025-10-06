@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class TimeConverter {
     public static void main(String[] args) {
         int hour, minute, second, num1, num2, num3;
-        double choice;
         boolean run = true;
         Scanner sc = new Scanner(System.in);
 
@@ -25,10 +24,15 @@ public class TimeConverter {
             num1 = minute * 60;
             num3 = hour * 60 * 60;
             num2 = num3 + num1 + second;
+            System.out.println("Total Seconds = " + num2 + " seconds");
+            System.out.println();
+            System.out.println("Calculations");
+
+
             System.out.println(hour + " Hour * 3600 = " + num3);
             System.out.println(minute + " Minute * 36 = " + num1);
             System.out.println(second +" Second * 1 = " + second);
-            System.out.println("Total = " + num2 + " second");
+            System.out.println("Total = " + num2 + " seconds");
 
 
             System.out.println("Do you want to convert another time? (y/n)");
