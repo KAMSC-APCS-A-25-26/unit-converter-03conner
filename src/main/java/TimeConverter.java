@@ -28,7 +28,7 @@ public class TimeConverter {
             System.out.println(hour + " Hour * 3600 = " + num3);
             System.out.println(minute + " Minute * 36 = " + num1);
             System.out.println(second +" Second * 1 = " + second);
-            System.out.println("Total = " + num2 + " seconds");
+            System.out.println("Total = " + num2 + " second");
 
 
             System.out.println("Do you want to convert another time? (y/n)");

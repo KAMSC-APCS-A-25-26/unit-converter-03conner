@@ -30,7 +30,7 @@ public class TempConverter {
                     distance = sc.nextDouble();
                     System.out.println("Conversion Results");
                     System.out.println("Celsius: " + distance);
-                    distance = distance * (9/5) + 32;
+                    distance = distance *   9/5 + 32;
                     System.out.println("Fahrenheit: " + distance);
                     System.out.println();
                     break;
