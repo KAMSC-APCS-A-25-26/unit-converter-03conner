@@ -31,7 +31,7 @@ public class TimeConverter {
 
             System.out.println(hour + " Hour * 3600 = " + num3);
             System.out.println(minute + " Minute * 36 = " + num1);
-            System.out.println(second +" = " + second + " seconds");
+            System.out.println(second +"second = " + second + " second");
             System.out.println("Total: " + num2 + " seconds");
 
 
